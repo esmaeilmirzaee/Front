@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import Hero from '../comps/home/Hero';
-import Features from '../comps/home/Features';
+import Hero from '../components/home/Hero';
+import Features from '../components/home/Features';
 
 export default function Home() {
   return (
