@@ -23,23 +23,25 @@ const SignIn = ({ setSignIn }) => {
           aria-modal='true'
           aria-labelledby='modal-headline'
         >
-          <div className='px-4 pt-5 pb-4 sm:p-6 sm:pb-4'>
-            <div className='justify-between sm:flex sm:items-start'>
-              <div className='self-start block pl-2 text-xl font-semibold text-gray-700'>
-                <h2 className='leading-relaxed text-left'>Log In</h2>
-                <p className='text-sm font-normal leading-relaxed text-gray-500'>
-                  Here, I sign in to add posts into my blog.
-                </p>
-              </div>
-              <div className='flex items-center justify-center flex-shrink-0 rounded-full shadow-md h-14 w-14 bg-blueGray-100'>
-                <img src='/logo512.png' width={48} className='' />
+          <div className='sm:flex sm:flex-row sm:justify-center'>
+            <div className='px-4 pt-5 pb-4 sm:p-6 sm:pb-4'>
+              <div className='justify-between sm:flex sm:items-start'>
+                <div className='flex items-center justify-center flex-shrink-0 rounded-full shadow-md h-14 w-14 bg-blueGray-100'>
+                  <img src='/logo512.png' width={48} className='' />
+                </div>
+                <div className='self-start block pl-2 text-xl font-semibold text-gray-700'>
+                  <h2 className='leading-relaxed text-left'>Log In</h2>
+                  <p className='text-sm font-normal leading-relaxed text-gray-500'>
+                    Here, I sign in to add posts into my blog.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div className=''>
             {/* input */}
             <div className='max-w-xl'>
-              <div class='mb-4 mx-5 relative'>
+              <div className='relative mx-5 mb-4'>
                 <input
                   className='app__input'
                   id='email'
@@ -53,7 +55,7 @@ const SignIn = ({ setSignIn }) => {
             </div>
 
             <div className='max-w-xl'>
-              <div class='mb-4 mx-5 relative'>
+              <div className='relative mx-5 mb-4'>
                 <input
                   className='app__input'
                   id='password'
