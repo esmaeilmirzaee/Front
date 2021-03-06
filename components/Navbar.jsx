@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Navbar = () => {
+const Navbar = ({ signIn, setSignIn }) => {
   return (
-    <header className='flex bg-yellow-50 bg-opacity-75  justify-between'>
+    <header className='flex justify-between bg-opacity-75 bg-yellow-50'>
       <div className='ml-10'>
         <a href='/'>
           <Image src='/logo512.png' width={64} height={64} />
         </a>
         {/* <h5 style={{ visibility: 'invisible' }}>Esmaeil MIRZAEE</h5> */}
       </div>
-      <nav className='flex flex-row mr-10 items-center'>
-        <ul className='flex flex-row list-none items-center'>
+      <nav className='flex flex-row items-center mr-10'>
+        <ul className='flex flex-row items-center list-none'>
           <li className='mr-5 hover:text-indigo-600 focus:text-xl'>
             <a href='/about' className=''>
               About
@@ -23,10 +23,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <a
-          href='/signin'
-          className='mr-1 bg-indigo-700 text-indigo-100 py-3 px-6 rounded transition ease-in-out duration-500 hover:bg-indigo-100 hover:text-indigo-700'
-        >
+        <a className='btn__primary' onClick={() => setSignIn(true)}>
           Sign In
         </a>
       </nav>
