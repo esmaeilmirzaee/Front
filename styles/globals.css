@@ -16,8 +16,8 @@
 }
 
 .app__container {
-  @apply mt-20 sm:mt-5;
   max-width: 98vw;
+  @apply mt-20 sm:mt-5;
 }
 
 .modal__container {
@@ -91,11 +91,11 @@
 
 .app__label {
   transition: all 0.2s ease-out;
-  top: 2rem;
+  top: 1rem;
   left: 0;
   font-size: 2rem;
 }
 
 .app__label {
-  @apply absolute py-2 mt-2 text-base leading-tight text-gray-400 pr-7 cursor-text;
+  @apply absolute py-1 mt-2 ml-1 text-base leading-tight text-gray-400 pr-7 cursor-text;
 }
