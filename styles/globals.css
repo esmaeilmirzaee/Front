@@ -97,5 +97,5 @@
 }
 
 .app__label {
-  @apply absolute py-1 mt-2 ml-1 text-base leading-tight text-gray-400 pr-7 cursor-text;
+  @apply absolute py-1 mt-2 ml-2 text-base leading-tight text-gray-400 pr-7 cursor-text;
 }
