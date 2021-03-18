@@ -1,33 +1,32 @@
-import Link from 'next/link';
 import { SiMedium, SiUplabs, SiGithub, SiStackoverflow } from 'react-icons/si';
 const Footer = () => {
   return (
-    <div className='items-center text-center bg-yellow-50 pt-10 pb-16 mt-5'>
-      <p className='justify-center items-center mt-5 font-black text-indigo-900 shadow-2xl'>
+    <div className='items-center pt-10 pb-16 mt-5 text-center bg-yellow-50'>
+      <p className='items-center justify-center mt-5 font-black text-indigo-900 shadow-2xl'>
         Living, coding every day & leveling up all day long.
       </p>
-      <div id='icons' className='flex mt-4 justify-center'>
-        <a href='https://esmaeilmirzaee.medium.com/' className=''>
+      <div id='icons' className='flex justify-center mt-4'>
+        <a href='https://esmaeilmirzaee.medium.com/' target='_blank'>
           <SiMedium className='mx-4' size='2em' />
         </a>
-        <a href='https://uplabs.com/esmaeilmirzaee'>
+        <a href='https://uplabs.com/esmaeilmirzaee' target='_blank'>
           <SiUplabs className='mx-4' size='2em' />
         </a>
-        <a href='https://github.com/esmaeilmirzaee'>
+        <a href='https://github.com/esmaeilmirzaee' target='_blank'>
           <SiGithub className='mx-4' size='2em' />
         </a>
-        <a href='https://stackoverflow.com/esmaeilmirzaee'>
+        <a href='https://stackoverflow.com/esmaeilmirzaee' target='_blank'>
           <SiStackoverflow className='mx-4' size='2em' />
         </a>
       </div>
-      <p className='text-center text-red-500 pt-10 m-2'>
+      <p className='pt-10 m-2 text-center text-red-500'>
         The current page developed in <span className='font-bold'>NextJS</span>{' '}
         and <span className='font-bold'>TailwindCSS</span>.
       </p>
       <p>
         The front side of this blog is hosted on{' '}
-        <span className='font-bold'>Netlify</span> and the backend side is
-        hosted on <span className='font-bold'>Heroku</span>.
+        <span className='font-bold'>Vercel</span> and the backend side is hosted
+        on <span className='font-bold'>Heroku</span>.
       </p>
       <style jsx>
         {`
