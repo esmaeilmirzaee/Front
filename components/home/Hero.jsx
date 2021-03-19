@@ -28,10 +28,10 @@ const Hero = () => {
         />
       </div>
       <div className='my-2 border-2 border-yellow-300 rounded-md shadow-lg'>
-        <p className='pt-5 text-xl font-medium text-indigo-800'>
+        <p className='pt-5 text-2xl font-medium text-indigo-800'>
           Hi. This is Esmaeil MIRZAEE.
         </p>
-        <p className='px-4 py-5 font-light text-justify text-indigo-800'>
+        <p className='px-4 py-5 text-xl font-light text-justify text-indigo-800'>
           I started my journey in the field of computer and electrical
           engineering as a network engineer, which I continued the job title for
           five years. Then I continued my job as a Linux administrator for the
