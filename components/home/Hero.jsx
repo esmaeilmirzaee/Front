@@ -3,30 +3,35 @@ import { FaHeart } from 'react-icons/fa';
 const Hero = () => {
   return (
     <div className='justify-center text-center'>
-      <h1 className='text-4xl text-center font-black text-indigo-800'>
+      <h1 className='text-4xl font-black text-center text-indigo-800'>
         Aspiring Full Stack Developer
       </h1>
-      <p className='flex flex-row justify-center text-xl font-medium text-indigo-600 mt-5 '>
-        I design and code beautifully simple things and{' '}
-        <FaHeart className='mx-2 text-red-600' /> what I do!
-      </p>
-      <div className='flex pt-10 justify-center'>
+      <div className='justify-center mt-5 text-xl font-medium sm:flex'>
+        <p className='text-indigo-600 '>
+          I design and code beautifully simple things and{' '}
+          <div className='sm:mx-auto'>
+            <FaHeart className='mx-auto text-rose-600 sm:mx-auto' />
+          </div>
+          <div className=''>what I do!</div>
+        </p>
+      </div>
+      <div className='flex justify-center w-1/2 pt-2 mx-auto border-rose-600'>
         <img
           src='https://esmaeilmirzaee.herokuapp.com/static/img/my__avatar.svg'
           alt='My avatar'
         />
       </div>
-      <div className='flex pb-5 justify-center'>
+      <div className='flex justify-center pb-1'>
         <img
           src='https://esmaeilmirzaee.herokuapp.com/static/img/hero__mac.svg'
           alt='iMac'
         />
       </div>
-      <div className='my-10 border-2 border-yellow-300 rounded-md shadow-lg'>
-        <p className='text-xl pt-5 text-indigo-800 font-medium'>
-          Hi. My name is Esmaeil MIRZAEE.
+      <div className='my-2 border-2 border-yellow-300 rounded-md shadow-lg'>
+        <p className='pt-5 text-xl font-medium text-indigo-800'>
+          Hi. This is Esmaeil MIRZAEE.
         </p>
-        <p className='px-4 py-5 text-justify text-indigo-800 font-light'>
+        <p className='px-4 py-5 font-light text-justify text-indigo-800'>
           I started my journey in the field of computer and electrical
           engineering as a network engineer, which I continued the job title for
           five years. Then I continued my job as a Linux administrator for the

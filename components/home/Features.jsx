@@ -26,14 +26,14 @@ import {
 
 const Features = () => {
   return (
-    <>
-      <div className='flex justify-center'>
+    <div className=''>
+      <div className='justify-center sm:block sm:my-3 md:flex'>
         {/* design */}
-        <div className='w-96 mx-2 border-2 justify-center border-yellow-500'>
+        <div className='justify-center w-11/12 mx-2 border-2 border-yellow-500 sm:my-10'>
           <div className='flex justify-center pt-5'>
             <GiPencilBrush size='8em' className='justify-center' />
           </div>
-          <div className='text-3xl pt-8 pb-5 font-bold text-indigo-800 shadow-sm text-center'>
+          <div className='pt-8 pb-5 text-3xl font-bold text-center text-indigo-800 shadow-sm'>
             Design
           </div>
           <p className='px-2 text-indigo-500'>
@@ -41,7 +41,7 @@ const Features = () => {
             application I will develop.
           </p>
           <div className='icons'>
-            <h5 className='text-xl pt-5 pb-4 font-semibold text-indigo-800 text-center'>
+            <h5 className='pt-5 pb-4 text-xl font-semibold text-center text-indigo-800'>
               Tools
             </h5>
             <p className='text-indigo-500'></p>
@@ -55,11 +55,11 @@ const Features = () => {
         </div>
 
         {/* backend */}
-        <div className='w-96 mx-2 border-2 justify-center border-yellow-500'>
+        <div className='justify-center w-11/12 mx-2 border-2 border-yellow-500 sm:my-10'>
           <div className='flex justify-center pt-5'>
             <FaCode size='8em' />
           </div>
-          <div className='text-3xl pt-8 pb-5 font-bold text-indigo-800 shadow-sm text-center'>
+          <div className='pt-8 pb-5 text-3xl font-bold text-center text-indigo-800 shadow-sm'>
             Develop
           </div>
           <p className='px-2 text-indigo-500'>
@@ -67,7 +67,7 @@ const Features = () => {
             applications in either browser or phone.
           </p>
           <div className='icons'>
-            <h5 className='text-xl pt-5 pb-4 font-semibold text-indigo-800 text-center'>
+            <h5 className='pt-5 pb-4 text-xl font-semibold text-center text-indigo-800'>
               Stack
             </h5>
             <p></p>
@@ -87,11 +87,11 @@ const Features = () => {
         </div>
 
         {/* frontend */}
-        <div className='w-96 mx-2 border-2 justify-center border-yellow-500'>
+        <div className='justify-center w-11/12 mx-2 border-2 border-yellow-500 sm:my-10'>
           <div className='flex justify-center pt-5'>
             <FaCloudversify size='8em' />
           </div>
-          <div className='text-3xl pt-8 pb-5 font-bold text-indigo-800 shadow-sm text-center'>
+          <div className='pt-8 pb-5 text-3xl font-bold text-center text-indigo-800 shadow-sm'>
             DevOps
           </div>
           <p className='px-2 text-indigo-500'>
@@ -100,7 +100,7 @@ const Features = () => {
             application.
           </p>
           <div className='icons'>
-            <h5 className='text-xl pt-5 pb-4 font-semibold text-indigo-800 text-center'>
+            <h5 className='pt-5 pb-4 text-xl font-semibold text-center text-indigo-800'>
               Application
             </h5>
             <p></p>
@@ -115,7 +115,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
