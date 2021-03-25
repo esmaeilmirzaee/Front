@@ -22,6 +22,8 @@ import {
   SiNetlify,
   SiGitlab,
   SiGithub,
+  SiPython,
+  SiDjango,
 } from 'react-icons/si';
 
 const Features = () => {
@@ -36,7 +38,7 @@ const Features = () => {
           <div className='pt-8 pb-5 text-3xl font-bold text-center text-indigo-800 shadow-sm'>
             Design
           </div>
-          <p className='px-2 text-indigo-500'>
+          <p className='px-2 text-lg text-indigo-500'>
             To me the design of UI is a way to ponder about every aspect of the
             application I will develop.
           </p>
@@ -62,7 +64,7 @@ const Features = () => {
           <div className='pt-8 pb-5 text-3xl font-bold text-center text-indigo-800 shadow-sm'>
             Develop
           </div>
-          <p className='px-2 text-indigo-500'>
+          <p className='px-2 text-lg text-indigo-500'>
             I love to breathe life into ideas & make them the next generation of
             applications in either browser or phone.
           </p>
@@ -71,22 +73,25 @@ const Features = () => {
               Stack
             </h5>
             <p></p>
-            <div className='flex justify-center pb-5'>
-              <SiRust size='2em' className='px-1' />
-              <SiCassandra size='2em' className='px-1' />
-              <SiMongodb size='2em' className='px-1' />
-              <SiNodeDotJs size='2em' className='px-1' />
-              <SiTailwindcss size='2em' className='px-1' />
-              <SiJavascript size='2em' className='px-1' />
-              <SiReact size='2em' className='px-1' />
-              <SiPostgresql size='2em' className='px-1' />
-              <SiRedux size='2em' className='px-1' />
-              <SiNextDotJs size='2em' className='px-1' />
+            <div className='pb-5'>
+              <div className='flex justify-center mx-auto'>
+                <SiRust size='2em' className='px-1' />
+                <SiJavascript size='2em' className='px-1' />
+                <SiNodeDotJs size='2em' className='px-1' />
+                <SiPython size='2em' className='px-1' />
+                <SiDjango size='2em' className='px-1' />
+              </div>
+              <div className='flex justify-center mx-auto'>
+                <SiTailwindcss size='2em' className='px-1' />
+                <SiReact size='2em' className='px-1' />
+                <SiRedux size='2em' className='px-1' />
+                <SiNextDotJs size='2em' className='px-1' />
+              </div>
             </div>
           </div>
         </div>
 
-        {/* frontend */}
+        {/* devops */}
         <div className='justify-center w-11/12 mx-2 border-2 border-yellow-500 sm:my-10'>
           <div className='flex justify-center pt-5'>
             <FaCloudversify size='8em' />
@@ -94,7 +99,7 @@ const Features = () => {
           <div className='pt-8 pb-5 text-3xl font-bold text-center text-indigo-800 shadow-sm'>
             DevOps
           </div>
-          <p className='px-2 text-indigo-500'>
+          <p className='px-2 text-lg text-indigo-500'>
             Grabing a good understanding of how a developed application
             communicates and its an essentail requirements to develop an
             application.
@@ -104,13 +109,19 @@ const Features = () => {
               Application
             </h5>
             <p></p>
-            <div className='flex justify-center pb-5'>
-              <SiLinux size='2em' className='px-1' />
-              <SiDocker size='2em' className='px-1' />
-              <SiHeroku size='2em' className='px-1' />
-              <SiNetlify size='2em' className='px-1' />
-              <SiGithub size='2em' className='px-1' />
-              <SiGitlab size='2em' className='px-1' />
+            <div className='pb-5'>
+              <div className='flex justify-center'>
+                <SiLinux size='2em' className='px-1' />
+                <SiDocker size='2em' className='px-1' />
+                <SiHeroku size='2em' className='px-1' />
+                <SiNetlify size='2em' className='px-1' />
+              </div>
+              <div className='flex justify-center'>
+                <SiGithub size='2em' className='px-1' />
+                <SiGitlab size='2em' className='px-1' />
+                <SiPostgresql size='2em' className='px-1' />
+                <SiMongodb size='2em' className='px-1' />
+              </div>
             </div>
           </div>
         </div>
